@@ -1,1 +1,36 @@
+1.Para subir la versión del proyecto git a un repositorio remoto, se pueden utilizar los siguientes comandos:
+git add . para agregar todos los cambios realizados al área de preparación.
+git commit -m "mensaje" para confirmar los cambios realizados.
+git push <nombre del repositorio> <nombre de la rama> para subir los commits desde tu rama (branch) local en tu repositorio git local al repositorio remoto1.
 
+2.Para utilizar el código de un proyecto git en un repositorio remoto (github) en un computador local, se puede utilizar el siguiente comando:
+git clone <url del repositorio> para clonar el repositorio remoto en el computador local2.
+
+3.Si se implementa un código en python que crea un objeto de una clase abstracta y se ejecuta dicho código, se generará una excepción TypeError indicando que no se puede instanciar una clase abstracta3.
+
+4.El decorador @abstractmethod indica que el método es abstracto y debe ser implementado por las subclases3.
+
+5.Algunos eventos que pueden ejecutarse en una interfaz gráfica de usuario son:
+
+Click de botón
+Selección de elemento en lista
+Cierre de ventana.
+
+6.El ciclo de eventos es un bucle que maneja los eventos generados por el usuario o por el sistema operativo y los distribuye a los objetos apropiados para su procesamiento4.
+
+7.Si desde la ventana principal de un programa se lanza un objeto de clase QDialog, es posible ignorarlo y seguir utilizando la ventana principal4.
+
+8.Algunos componentes gráficos de PyQt6 son:
+
+QLabel
+QPushButton
+QCheckBox
+QComboBox
+
+9.Si se requiere ingresar datos numéricos, algunas alternativas existentes de componentes en PyQt6 son:
+QSpinBox
+QDoubleSpinBox
+QSlider5.
+
+10.Para utilizar una interfaz creada con Qt Designer en un código fuente en python con PyQt6, se puede utilizar el siguiente comando:
+pyuic6 -x <nombre del archivo>.ui -o <nombre del archivo>.py para convertir el archivo .ui en un archivo .py que pueda ser importado en el código fuente
